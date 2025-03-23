@@ -19,7 +19,7 @@ export default function Page() {
         />
         <div>
           <p className="text-xl font-semibold">Ayyash Zamny</p>
-          <p className="text-lg text-gray-400">Software Engineer Intern</p>
+          <p className="text-lg text-gray-400">Software Engineer</p>
           {/* Programming Languages Icons */}
           <div className="flex mt-2 space-x-4 text-gray-400">
             

@@ -24,6 +24,7 @@ const skills = {
 };
 
 const achievements = [
+  "2nd Place at Algothon (CodeFest) Coding Competition (2024)",
   "2nd Place at SciFest (SLIIT) under the University Category (2024)",
   "4th Place at SLIIT Xtreme Coding Hackathon (2024)",
   "3rd Place at INTELLECT 1.0 (2024)",
@@ -41,7 +42,10 @@ const experience = [
     title: "Junior Software Engineer (Intern)",
     company: "American Premium Water",
     duration: "Dec 2024 - Present",
-    description: ""
+    description: `Developed an Admin Panel with JWT authentication to efficientlymanage the Customer Care Mobile Application, ensuring secure accessand role-based controls.Built a Management Portal to enhance customer relations, featuring
+custom report generation for insightful decision-making.Integrated OCR text recognition for seamless and automated form filling,improving usability and reducing manual input errors.Hosted both the sites in Azure VM and created a CD/CI pipe line forcontinues integration using GitHub workflow.
+Implemented Lazy Loading to optimize application performance, reducinginitial load time and enhancing user experience.
+`
   },
   {
     title: "Software Engineer Intern",

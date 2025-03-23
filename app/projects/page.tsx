@@ -3,6 +3,13 @@ import { SiMongodb, SiExpress, SiMysql ,SiArduino} from "react-icons/si";
 
 const projects = [
   {
+    title: "Finance Management REST API",
+    description: "A backend system for tracking budgets, transactions, financial reports, and savings goals. It features secure JWT authentication, role-based access, expense and income management, budget alerts, and an admin dashboard for user management.",
+    stack: ["express", "node", "mongodb"],
+    link: "https://github.com/ayyashzamny/finance-management-system-rest-api.git",
+  },
+  
+  {
     title: " MediX- Healthcare Management System",
     description: "Manage roles for admin, employee, and doctor accounts. Track and approve leave requests and manage employee schedules. Patients can book appointments, and admins manage doctor availability and schedules.",
     stack: ["react", "express", "node", "mysql"],
