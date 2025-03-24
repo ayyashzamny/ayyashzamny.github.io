@@ -62,7 +62,7 @@ const education = [
     degree: "BSc (Hons) in IT Specialization in Software Engineering",
     institution: "Sri Lanka Institute of Information Technology",
     duration: "2022 - Present",
-    notes: "MMA, SciFest'24 - 1st Runner Up",
+    notes: "MMA, SciFest'24 - 1st Runner Up, Algothon'24 - 1st Runner Up",
   },
   {
     degree: "G.C.E A/L in Physical Science",
