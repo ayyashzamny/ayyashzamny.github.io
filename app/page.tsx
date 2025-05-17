@@ -39,17 +39,18 @@ export default function Page() {
         </div>
       </div>
 
-      <p className="mb-4">
-        I'm Ayyash Zamny, a Software Engineering student at the Sri Lanka Institute of Information Technology. I have gained hands-on experience in developing innovative solutions across various projects, including the MediX- Healthcare Management System, Vehicle Rental System, and IoT-based agricultural monitoring systems.
-      </p>
+     <p className="mb-4">
+      I’m <strong>Ayyash Zamny</strong>, a Software Engineering student at the Sri Lanka Institute of Information Technology. I’ve built real-world solutions such as the <em>MediX Healthcare Management System</em>, a <em>Finance Management REST API</em>, an IoT-driven <em>Agricultural Monitoring System</em>, and mobile-first apps like <em>RideAwake</em>. These projects span domains from hospital operations to smart farming and have sharpened my ability to turn complex requirements into reliable software.
+    </p>
 
-      <p className="mb-4">
-        Over the course of my academic journey, I have honed my skills in several programming languages like Java, PHP, Python, JavaScript, and have developed proficiency in both front-end and back-end technologies. I have worked on projects ranging from Tailor Management System to employee leave management solutions, using stacks like MERN, Laravel.
-      </p>
+    <p className="mb-4">
+      Throughout my degree I’ve become fluent in modern full-stack tooling. On the frontend I specialise in <strong>React</strong>, while on the backend I’m comfortable with <strong>Node.js & Express</strong>. Data-layer work is a strong suit too—I design and optimise schemas in <strong>MySQL, MS SQL, and MongoDB</strong>. My codebases often follow the MERN pattern or a React + REST architecture.
+    </p>
 
-      <p className="mb-4">
-        My passion for tech and innovation is complemented by achievements like winning gold medals at the Kaohsiung International Invention & Design Expo and National Muay Thai Championship. I'm always looking to learn, adapt, and take on challenges in my pursuit of building impactful software.
-      </p>
+    <p className="mb-4">
+      Beyond academics, I thrive on challenge: winning gold at the Kaohsiung International Invention & Design Expo and the National Muay Thai Championship taught me discipline and creative resilience. I’m driven to keep learning, adapting, and shipping software that makes a meaningful impact.
+    </p>
+
     </section>
   );
 }
