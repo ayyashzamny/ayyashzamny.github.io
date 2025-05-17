@@ -4,42 +4,73 @@ import { SiMongodb, SiExpress, SiMysql ,SiArduino} from "react-icons/si";
 const projects = [
   {
     title: "Finance Management REST API",
-    description: "A backend system for tracking budgets, transactions, financial reports, and savings goals. It features secure JWT authentication, role-based access, expense and income management, budget alerts, and an admin dashboard for user management.",
+    description:
+      `A secure backend for tracking budgets, transactions, savings goals, and generating financial reports.\n\n• JWT authentication & role‑based access for admins and regular users\n• Expense / income endpoints with category support\n• Budget alerts when spending nears limits\n• Admin dashboard APIs for user management`,
     stack: ["express", "node", "mongodb"],
     link: "https://github.com/ayyashzamny/finance-management-system-rest-api.git",
   },
-  
   {
-    title: " MediX- Healthcare Management System",
-    description: "Manage roles for admin, employee, and doctor accounts. Track and approve leave requests and manage employee schedules. Patients can book appointments, and admins manage doctor availability and schedules.",
+    title: "MediX – Healthcare Management System",
+    description:
+      `Full‑stack app to streamline hospital operations.\n\n• Separate portals for admin, doctor, and employee roles\n• Leave‑request workflow and schedule management for staff\n• Patient appointment booking with real‑time doctor availability`,
     stack: ["react", "express", "node", "mysql"],
     link: "https://github.com/ayyashzamny/medi-x-csse.git",
   },
-  
-  
   {
     title: "Tailor Management System",
-    description: "An online order management system for tailor shops, where users can place orders and shop owners can manage them.",
+    description:
+      `Online ordering platform for tailor shops.\n\n• Customers place and track custom garment orders\n• Shop owners manage orders, statuses, and measurements`,
     stack: ["react", "express", "node", "mongodb"],
     link: "https://github.com/ayyashzamny/MSR-ITP.git",
   },
   {
     title: "IoT System for Agricultural Monitoring",
-    description: "An IoT solution for real-time agricultural monitoring, including automated watering and SMS alerts for low moisture levels.",
+    description:
+      `End‑to‑end IoT solution for farms.\n\n• Sensor data collection for soil moisture and environment\n• Automated watering triggered by low‑moisture thresholds\n• SMS alerts to farmers for critical conditions`,
     stack: ["react", "express", "node", "mysql", "arduino"],
-    link: "",
+    link: "", // private repo
   },
   {
-    title: "Employee Leave Management System",
-    description: "A system where employees can apply for leave, and admins can approve or reject requests.",
-    stack: ["html", "css", "javascript","laravel"],
-    link: "https://github.com/ayyashzamny/Employee-Leave-System-Laravel.git",
+    title: "Country Explorer",
+    description:
+      `A modern frontend application where users can explore detailed information about countries worldwide.\n\n• Interactive explorer using live data from the REST Countries API\n• User authentication powered by Clerk\n• Fun geography quiz game\n• Fully responsive and engaging UI`,
+    stack: ["react", "javascript"],
+    link: "https://sa-countries.vercel.app/",
   },
   {
-    title: "Vehicle Rental System",
-    description: "A platform where vehicle owners can list their vehicles, and users can rent the cars available on the page.",
-    stack: ["html", "css", "javascript", "java"],
-    link: "https://github.com/ayyashzamny/Vehicle-Rental-System.git",
+    title: "Sports Booking Center (In Progress)",
+    description:
+      `An innovative platform designed to unify sports‑facility bookings.\n\n• Real‑time slot booking across centers\n• Search nearby facilities when travelling\n• Transparent availability, timings, and fees\n• User‑friendly UI for seamless experience`,
+    stack: ["react", "node", "mysql"],
+    link: "", // work in progress
+  },
+  {
+    title: "RideAwake (Mobile)",
+    description:
+      `Android app that stops you from missing your stop and keeps loved ones informed.\n\n• Smart Stop Alert: notifies 1 km before destination\n• Live Weather for destination\n• Safety SMS with live location to guardian\n• Arrival Ping once you arrive safely`,
+    stack: ["react", "javascript"],
+    link: "", // mobile app store link pending
+  },
+  {
+    title: "Food Delivery Application (Microservices)",
+    description:
+      `A food delivery platform built on microservices.\n\n• Role‑based authentication (customer / driver)\n• Password recovery via NodeMailer\n• Profile management and deactivation\n• Orders auto‑assigned to nearby drivers`,
+    stack: ["flutter", "node", "mongodb"],
+    link: "", // private
+  },
+  {
+    title: "Smart Business Card Scanner & CRM (Internship)",
+    description:
+      `Productivity tool for sales teams.\n\n• Card scanning with Azure OCR – auto extracts Name, Phone, Email\n• Enriched contacts with tagging, notes, reminders\n• Pipeline tracker & reports – visualize deal stages`,
+    stack: ["react", "node", "mssql"],
+    link: "", // internal
+  },
+  {
+    title: "Admin Panel for Mobile Application Management (Internship)",
+    description:
+      `Internal admin panel to control mobile‑app users & features.\n\n• Assign permissions, send notifications, view feedback\n• Managers get stats dashboards & reports\n• Singleton admin user with elevated privileges`,
+    stack: ["react", "node", "mssql"],
+    link: "", // internal
   },
 ];
 

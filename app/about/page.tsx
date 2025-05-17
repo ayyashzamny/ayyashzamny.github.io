@@ -5,21 +5,16 @@ import { FaNodeJs } from "react-icons/fa";
 const skills = {
   webDevelopment: [
     { name: "Node.js", icon: <FaNodeJs /> },
-    { name: "Express.js", icon: <SiExpress /> },
     { name: "React.js", icon: <FaReact /> },
-    { name: "PHP", icon: <FaPhp /> },
     { name: "JavaScript", icon: <FaJsSquare /> },
     
   ],
   frameworks: [
     { name: "Bootstrap", icon: <FaBootstrap /> },
-    { name: "Django", icon: <SiDjango /> },
-    { name: "Laravel", icon: <FaLaravel /> },
   ],
   databases: [
     { name: "MongoDB", icon: <SiMongodb /> },
     { name: "MySQL", icon: <SiMysql /> },
-    { name: "PostgreSQL", icon: <SiPostgresql /> },
   ],
 };
 
@@ -87,7 +82,7 @@ export default function About() {
 
       {/* Web Development Section */}
       <div>
-        <h3 className="font-semibold">Web Development</h3>
+        <h3 className="font-semibold">Main Stack</h3>
         <div className="flex space-x-4 mt-2">
           {skills.webDevelopment.map((skill, index) => (
             <div key={index} className="flex items-center space-x-2">
